@@ -26,4 +26,4 @@ jobs:
           SURGE_TOKEN: ${{ secrets.SURGE_API_KEY }} 
         run: |
           surge login --token $SURGE_TOKEN
-          surge --project ./ --domain frandyaquino.surge.sh # Tu subdominio
+          surge --project ./ --domain https://misael-p1.surge.sh # Tu subdominio
